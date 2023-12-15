@@ -1,13 +1,7 @@
-// $("h1").css("color","Black")
-//select the
-// const allh1 = document.querySelector("h1")
-// console.log(allh1)
+$("h1").text("Good Day")
 
-//using jquery
-$("h1").addClass("big-title")
+//on the class level
+$("button").text("Don't click here")
 
-
-//using jquery add multiple class using space between
-$("h1").addClass("big-title margin-5")
-
-console.log($("h1").hasClass("big-title"))  // true
+//for the innerHTML
+$("button").html("<em>Don't click here</em>")
