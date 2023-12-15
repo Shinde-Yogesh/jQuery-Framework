@@ -1,8 +1,14 @@
 body{
     background-color: rgb(195, 99, 143);
 }
+
 .big-title{
-font-size: 10rem;
+font-size: 5rem;
 color:crimson;
 font-family:cursive;
+}
+
+.margin-5
+{
+    margin: 10px;
 }
