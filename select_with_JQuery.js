@@ -1,4 +1,1 @@
-$(document).ready(function ()
-{
-    $("h1").css("color","purple")
-})
+$("h1").css("color","Black")
