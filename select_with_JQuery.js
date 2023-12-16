@@ -9,3 +9,20 @@ $("button").click(function()
 {
     $("h1").css("color","cyan")
 })
+
+$("input").keypress(function(event)
+{
+    console.log(event.key)
+})
+
+//for the body
+$("body").keypress(function(event)
+{
+    console.log(event.key)
+})
+
+//change the h1 text
+$("body").keypress(function(event)
+{
+    $("h1").text(event.key)
+})
